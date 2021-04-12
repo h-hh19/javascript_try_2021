@@ -4,12 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="js-clock">
       <h1>00:00</h1>
     </div>
+    <form class="js-form form">
+      <input type="text" placeholder="너의 이름은 무엇이니?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+
+    <form class="js-toDoForm">
+      <input type="text" placeholder="오늘 할 일 적기" />
+    </form>
+    <ul class="js-toDoList"></ul>
+
     <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
   </body>
 </html>
